@@ -1,0 +1,126 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+  text-align: center;
+}
+article {
+  border: 5px solid black;
+  padding: 50px;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* ------------SECTION1------------ */
+
+.section1 p ,.section2 p{
+  font-weight: 550;
+}
+
+button {
+  cursor: pointer;
+}
+.section1AddToCartButton {
+  font-size: 15px;
+  color: black;
+  border-radius: 25px;
+  border: 0px solid;
+  font-weight: bold;
+  padding: 12px 15px;
+  background-color: rgb(238, 204, 92);
+  transition: opacity 0.15s;
+}
+
+.section1BuyNowButton {
+  font-size: 15px;
+  color: black;
+  border-radius: 25px;
+  border: 0px solid;
+  font-weight: bold;
+  padding: 12px 15px;
+  background-color: rgb(255, 164, 28);
+  transition: opacity 0.15s;
+}
+.section1AddToCartButton:hover,
+.section1BuyNowButton:hover,
+.subButton:hover {
+  opacity: 0.8;
+}
+
+.section1AddToCartButton:hover,
+.section1BuyNowButton:hover,
+.subButton:hover {
+  opacity: 0.5;
+}
+
+/* ------------SECTION2------------ */
+
+.section2 .subButton {
+    padding: 12px 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: rgb(175, 10, 10);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: opacity 0.15s;
+}
+
+.section2 .join {
+    padding: 12px 25px;
+  border: 1px solid rgb(65, 140, 238);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(65, 140, 238);
+  font-weight: 540;
+  font-size: 15px;
+  transition: color 0.15s, background-color 0.4s;
+}
+.join:hover {
+  background-color: rgb(65, 140, 238);
+  color: white;
+}
+
+.section2 .tweet {
+    padding: 12px 25px;
+  border: 1px solid rgb(65, 140, 238);
+  border-radius: 25px;
+  background-color: rgb(65, 140, 238);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 15px;
+ transition: box-shadow 0.15s;
+}
+.tweet:hover {
+    box-shadow: 3px 3px 10px rgba(32, 32, 32, 0.473);
+}
+
+.tweet:active {
+    box-shadow: 3px 3px 20px rgba(32, 32, 32, 0.151);
+}
+
+/* ------------SECTION3------------ */
+
+.section3{
+
+    text-align: left;
+}
+.current-stock-exchange{
+
+    color: #25AD25;
+}
+.past-stock-return{
+
+    color: #ec3737;
+}
+.past-stock-exchange{
+    color: rgba(0, 0, 0, 0.589);
+}
+.currency{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.589);
+}
